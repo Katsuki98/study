@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>New Chapter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="https://cdn.ckeditor.com/4.10.1/standard/ckeditor.js"></script>
+    {% include 'metal-data.html' %}
+</head>
+<body>
+    {% include 'user/navigation.html' %}
+    <form method="POST">
+        <div class="row justify-content-center" style="background-color: rgb(243, 235, 225); height: 650px">
+            <div class="col col-md-9">
+                <label>Tên chương:</label>
+                <br>
+                <input type="text" name="name" placeholder="Tên chương">
+                <br>
+                <textarea name="editor1"></textarea><br>
+                
+                <button type="Submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        
+    </form>
+
+
+    <script>
+        CKEDITOR.replace( 'editor1' );
+    </script>
+</body>
+</html>

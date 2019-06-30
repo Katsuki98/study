@@ -1,0 +1,97 @@
+.brand {
+    margin-right: 70%;
+    color: black; 
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 15% 0px;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+}
+
+.feature {
+    padding: 5rem 0px;
+}
+
+.icon-item h3 {
+    font-size: 2rem;
+}
+
+.icon-item p {
+    font-size: 1rem;
+}
+
+.icon {
+    margin-bottom: 5%;
+}
+
+.icon i {
+    font-size: 400%;
+    transition: all .1s ease-in-out;
+}
+
+.icon i:hover {
+    transform: scale(1.2);
+}
+
+.img-bottom{
+    display: flex;
+    justify-content: center;
+    background: url(./img/bg-masthead.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 5% 0px;
+}
+
+.showcase-img {
+    background-size: cover;
+    min-height: 30rem;
+}
+
+.showcase .showcase-text{
+    padding: 7rem;
+}
+
+.showcase-text h2{
+    font-weight: 600;
+}
+
+.comment {
+    padding: 6% 0px;
+}
+
+.comment h2 {
+    margin-bottom: 3%;
+}
+
+.comment-items img {
+    max-width: 12rem;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.img-container1 {
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 8% 0px;
+}
+
+.footer {
+    padding: 5%;
+}
+
+.list-inline-item i {
+    font-size: 200%;
+}
+

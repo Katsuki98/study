@@ -1,0 +1,59 @@
+.bg-green {
+    background-color: green;
+}
+
+.bg-aqua {
+    background-color: aqua;
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+#head {
+    width: 1000px;
+    height: 100px;
+    margin: 0px 500px 
+}
+
+#block1 {
+    width: 200px;
+    height: 80px;
+    margin: 10px 705px 10px 5px 
+}
+
+#block2 {
+    width: 500px;
+    height: 80px;
+    margin: 10px 5px 10px 405px 
+}
+
+#neck {
+    width: 1000px;
+    height: 40px;
+    margin: 0px 500px 
+}
+
+#body {
+    width: 1000px;
+    height: 830px;
+    margin: 0px 500px 
+}
+
+#leg {
+    width: 1000px;
+    height: 30px;
+    margin: 0px 500px 
+}

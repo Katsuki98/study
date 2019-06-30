@@ -1,0 +1,19 @@
+p {
+    color: red;
+    }
+ 
+* {
+    font-family: 'Charm', cursive;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-red {
+    color: red !important;
+}
+
+img:hover {
+    transform: rotate(90deg);
+    transition: all 0.5s linear 0.2s;
+}

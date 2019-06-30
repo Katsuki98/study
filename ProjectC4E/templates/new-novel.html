@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>New novel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    {% include 'metal-data.html' %}
+</head>
+<body>
+    {% include 'user/navigation.html' %}
+    <form method="POST">
+        <div class="row justify-content-center" style="background-color: rgb(243, 235, 225);">
+            <div class="col col-md-9">
+                <div class="text-center">
+                    <h3>Đăng truyện</h3>
+                </div><br>
+                <p><label>Tên truyện (bắt buộc):</label>
+                <br>
+                <input type="text" name="name" placeholder="Tên truyện" style="width: 304px;"></p>
+                
+                <p><label>Tác giả:</label>
+                <br>
+                <input type="text" name="author" placeholder="Tác giả" style="width: 304px;"></p>
+
+                <p><label>Giới thiệu:</label>
+                <br>
+                <input type="text" name="introduce" placeholder="Giới thiệu" style="width: 304px;"></p>
+
+                <p><label>Thể loại 1:</label>
+                <br>
+                <input type="text" name="tag1" placeholder="Tag 1" style="width: 304px;"></p>
+
+                <p><label>Thể loại 2:</label>
+                <br>
+                <input type="text" name="tag2" placeholder="Tag 2" style="width: 304px;"></p>
+
+                <p><label>Thể loại 3:</label>
+                <br>
+                <input type="text" name="tag3" placeholder="Tag 3" style="width: 304px;"></p>
+
+                <p><label>Link Avatar (bắt buộc, nếu không được mời thử link khác):</label>
+                <br>
+                <input type="text" name="avatar_img" placeholder="Link" style="width: 304px;"></p>
+                
+                <p><label>Link Ảnh bìa (bắt buộc, nếu không được mời thử link khác):</label>
+                <br>
+                <input type="text" name="bg_img" placeholder="Link" style="width: 304px;"></p>
+                
+                <br>
+                <button type="Submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        
+    </form>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User</title>
+    {% include 'metal-data.html' %}
+</head>
+<body>
+    {% include 'user/navigation.html' %}
+    <div class="row justify-content-center">
+        <div class="col col-md-9">
+            <table border="1px">
+                <thead>
+                    <th>STT</th>
+                    <th>Truyện</th>
+                    <th>Chỉnh sửa</th>
+                </thead>
+                <tbody>
+                    {% for novel in all_novel %}
+                        <tr>
+                            <td>{{ loop.index }}</td>
+                            <td>{{ novel.name }}</td>
+                            <td>
+                                <a href="{{ url_for('delete', novel_id=novel.id,user_id=user_id) }}">Xoá</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <br>
+            <br>
+            {{ status }}
+        </div>
+    </div> 
+</tbody>
+</table>
+</body>
+</html>

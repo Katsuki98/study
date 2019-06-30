@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Admin playground</h1>
+    <h3>
+        <a href="{{ url_for('order') }}">Xem các yêu cầu dịch vụ</a>
+    </h3>
+    <table border="1px">
+        <thead>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>YOB</th>
+            <th>Gender</th>
+            <th>Height</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th></th>
+        </thead>
+        <tbody>
+            {% for service in all_service %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ service.name }}</td>
+                    <td>{{ service.yob }}</td>
+                    <td>{{ 'nam' if service.gender else 'nữ' }}</td>
+                    <td>{{ service.height }}</td>
+                    <td>{{ service.phone }}</td>
+                    <td>{{ service.address }}</td>
+                    <td>
+                        <a href="{{ url_for('update_service', service_id=dervice_id) }}">Sửa</a>
+                        <a href="{{ url_for('delete', service_id=service_id) }}">Xoá</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

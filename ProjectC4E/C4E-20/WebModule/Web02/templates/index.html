@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mùa đông không lạnh</title>
+    {% include "metal-data.html" %}
+</head>
+<body>
+    <!-- <h1>Mùa Đông Không Lạnh</h1> -->
+    <!-- <a href="{{ url_for('login') }}">Đăng nhập</a>
+    <br>
+    <a href="{{ url_for('admin') }}">Quản lý</a>
+    <br>
+    <a href="{{ url_for('search', gender=0) }}">Click vào em đi!</a>
+    <br>
+    <a href="{{ url_for('search', gender=1) }}">Click vào anh đi!</a>
+    <br>
+    <a href="{{ url_for('logout') }}">Đăng xuất</a> -->
+
+    {% include "homepage/navigation.html" %}
+    {% include "homepage/carousel.html" %}
+    {% include "homepage/welcome.html" %}
+    {% include "homepage/vote.html" %}
+    {% include "homepage/service.html" %}
+</body>
+</html>

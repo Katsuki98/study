@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9053ce95-b371-497f-b76b-887e9cbf8244" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/Sprite-0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/background/gameOver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/background/gamePause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/background/gameStart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/bullet/bullet_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/bullet/bullet_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/bullet/bullet_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/bullet/bullet_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/1/tank_armor_down_c1_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/1/tank_armor_down_c1_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/1/tank_armor_left_c1_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/1/tank_armor_left_c1_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/1/tank_armor_right_c1_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/1/tank_armor_right_c1_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/1/tank_armor_up_c1_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/1/tank_armor_up_c1_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/2/tank_armor_down_c2_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/2/tank_armor_down_c2_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/2/tank_armor_left_c2_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/2/tank_armor_left_c2_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/2/tank_armor_right_c2_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/2/tank_armor_right_c2_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/2/tank_armor_up_c2_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/2/tank_armor_up_c2_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/3/tank_basic_down_c0_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/3/tank_basic_down_c0_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/3/tank_basic_left_c0_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/3/tank_basic_left_c0_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/3/tank_basic_right_c0_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/3/tank_basic_right_c0_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/3/tank_basic_up_c0_t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/3/tank_basic_up_c0_t2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/enemy counter/NumberEnemy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/enemy/enemy counter/enemy_counter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/explosion/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/flag/deadflag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/flag/eagle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/flag/flag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/map/brick.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/map/ci-begin-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/map/ci-begin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/map/forest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/map/sea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/map/steel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/map/tank..json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/map/tank.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/map/tank2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/bounes.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/brick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/brick_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/brick_1.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/brick_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/brick_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/brick_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/brick_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/deepsea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/forest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/forest.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/iron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/sea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/sea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/steel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/steel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/objects/void.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/player/1/tank_player1_down_c0_t1_s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/player/1/tank_player1_down_c0_t2_s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/player/1/tank_player1_left_c0_t1_s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/player/1/tank_player1_left_c0_t2_s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/player/1/tank_player1_right_c0_t1_s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/player/1/tank_player1_right_c0_t2_s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/player/1/tank_player1_up_c0_t1_s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/player/1/tank_player1_up_c0_t2_s1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/Image/player/player life/life.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/background music.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/background_music.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/bullet_hit_1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/bullet_hit_1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/bullet_hit_2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/bullet_hit_2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/bullet_shot.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/bullet_shot.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/explosion_1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/explosion_1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/explosion_2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/explosion_2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/game_over.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/game_over.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/pause.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/pause.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/powerup_appear.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/powerup_appear.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/powerup_pick.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/powerup_pick.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/stage_start.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/stage_start.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/statistics_1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/assets/sound/statistics_1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/ci-begin-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/lib/gson-2.8.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/Background.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/CoverGameOverScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/CoverGamePauseScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/CoverMenuScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/CoverPlayScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/FrameCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/GameObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/KeyEventPress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/Vector2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/action/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/action/ActionParallel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/action/ActionRepeat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/action/ActionSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/action/ActionWait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/enemy/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/enemy/EnemyAnimator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/enemy/EnemyBullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/enemy/EnemyBulletDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/enemy/EnemyExplosion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/enemy/EnemySummoner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/enemy/EnemySummoner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/game/GameCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/game/GameWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/game/GameWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/game/Platform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/game/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/maps/Layer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/maps/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/menu/MenuLife.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/menu/MenuScore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/menu/MenuWhite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/menu/MenuWhite2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/physics/BoxCollider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/physics/Physics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/player/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/player/PlayerAnimator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/player/PlayerBullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/player/PlayerBulletDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/renderer/AnimationRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/renderer/BoxRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/renderer/MenuLifeRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/renderer/MenuScoreRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/renderer/Renderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/renderer/SingleImageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/renderer/TextRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/scene/GameOverScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/scene/MenuScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/scene/Scene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/scene/SceneManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/base/scene/SceneStage1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/tklibs/AudioUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/tklibs/Mathx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/tklibs/SpriteUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/out/production/ci-begin-master/tklibs/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/Background.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/CoverGameOverScene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/CoverGamePauseScene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/CoverMenuScene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/CoverPlayScene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/FrameCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/GameObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/KeyEventPress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/Vector2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/action/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/action/ActionParallel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/action/ActionRepeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/action/ActionSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/action/ActionWait.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/enemy/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/enemy/EnemyAnimator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/enemy/EnemyBullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/enemy/EnemyBulletDirection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/enemy/EnemyExplosion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/enemy/EnemySummoner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/game/GameCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/game/GameWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/game/Platform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/game/Settings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/maps/Layer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/maps/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/menu/MenuLife.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/menu/MenuScore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/menu/MenuWhite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/menu/MenuWhite2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/physics/BoxCollider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/physics/Physics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/player/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/player/PlayerAnimator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/player/PlayerBullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/player/PlayerBulletDirection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/renderer/AnimationRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/renderer/BoxRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/renderer/MenuLifeRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/renderer/MenuScoreRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/renderer/Renderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/renderer/SingleImageRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/renderer/TextRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/scene/GameOverScene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/scene/MenuScene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/scene/Scene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/scene/SceneManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/base/scene/SceneStage1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/tklibs/AudioUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/tklibs/Mathx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/tklibs/SpriteUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/ci-begin-master/src/tklibs/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/enemy/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/enemy/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/enemy/EnemyBullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/enemy/EnemyBullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/game/Platform.class" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/game/Platform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/game/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/game/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/maps/Layer.class" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/maps/Layer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/player/PlayerBullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/player/PlayerBullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/scene/SceneStage1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CI11-Tank/ci-begin-master/out/production/ci-begin-master/base/scene/SceneStage1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ci-begin-master/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ci-begin-master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ci-begin-master/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ci-begin-master/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ci-begin-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/Background.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/CoverGameOverScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/CoverMenuScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/FrameCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/GameObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/KeyEventPress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/Vector2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/action/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/action/ActionParallel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/action/ActionRepeat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/action/ActionSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/action/ActionWait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/enemy/Enemy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/enemy/Enemy$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/enemy/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/enemy/EnemyBullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/enemy/EnemyExplosion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/enemy/EnemySummoner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/enemy/EnemySummoner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/game/GameCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/game/GameWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/game/GameWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/game/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/physics/BoxCollider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/physics/Physics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/player/ActionFire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/player/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/player/PlayerBullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/player/PlayerBulletType1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/player/PlayerBulletType2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/player/PlayerExplosion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/renderer/AnimationRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/renderer/BoxRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/renderer/Renderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/renderer/SingleImageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/scene/GameOverScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/scene/MenuScene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/scene/Scene.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/scene/SceneManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/base/scene/SceneStage1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/tklibs/Mathx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ci-begin-master/out/production/ci-begin/tklibs/SpriteUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/ci-begin-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/ci-begin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/Background.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/FrameCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/GameObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/KeyEventPress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/Vector2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/action/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/action/ActionParallel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/action/ActionRepeat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/action/ActionSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/enemy/Enemy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/enemy/Enemy$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/enemy/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/enemy/EnemyBullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/enemy/EnemyExplosion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/enemy/EnemySummoner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/game/GameCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/game/GameWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/game/GameWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/game/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/physics/BoxCollider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/physics/Physics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/player/ActionFire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/player/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/player/PlayerBullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/player/PlayerBulletType1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/player/PlayerBulletType2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/player/PlayerExplosion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/renderer/AnimationRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/renderer/BoxRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/renderer/Renderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/base/renderer/SingleImageRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/tklibs/Mathx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/out/production/ci-begin/tklibs/SpriteUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/src/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/Background.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/src/base/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/KeyEventPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/src/base/KeyEventPress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/enemy/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/enemy/EnemyBullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/enemy/EnemyExplosion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/enemy/EnemySummoner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/game/GameCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/src/base/game/GameCanvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/game/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/src/base/game/GameWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/game/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/src/base/game/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/player/ActionFire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/player/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/player/PlayerBullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/player/PlayerBulletType1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/player/PlayerBulletType2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/player/PlayerExplosion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sokoban/src/base/renderer/SingleImageRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sokoban/src/base/renderer/SingleImageRenderer.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/CI11-Tank" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="516" />
+    <option name="width" value="820" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Website" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9053ce95-b371-497f-b76b-887e9cbf8244" name="Default Changelist" comment="" />
+      <created>1545410538212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545410538212</updated>
+      <workItem from="1545410543249" duration="81000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="81000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

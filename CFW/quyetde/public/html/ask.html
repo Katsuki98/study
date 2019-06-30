@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/ask.css">
+    <title>Choose</title>
+</head>
+<body>
+    <h1>Ask true or false?</h1>
+    <form action="/addquestion" method="POST">
+        <textarea name="questionContent" id="question" cols="30" rows="10"></textarea>
+        <p>Remain 200/200 character(s)</p>
+        <button class="submit-button">Send</button>
+    </form>
+
+    <button class="questions-button">Total questions</button>
+    <div class="total-questions"></div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="./js/ask.js"></script>
+</body>
+</html>

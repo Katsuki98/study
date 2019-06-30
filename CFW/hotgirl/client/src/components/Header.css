@@ -1,0 +1,9 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .search {
+        display: inline-block;
+        width: 30%;
+    }

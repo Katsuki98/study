@@ -1,0 +1,42 @@
+.text-success {
+    color: green;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-green {
+    background-color: lightgreen;
+}
+
+.w-200px {
+    width: 200px;
+}
+
+.h-200px {
+    height: 200px;
+}
+
+.bg-blue {
+    background: dodgerblue;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+#box-model {
+    border: 1px orangered solid;
+    /* margin: 20px 40px 60px 80px; chieu kim dong ho*/
+    margin: 20px 50px;
+    /* tren duoi 20 trai phai 50 */
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#child-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(48, 107, 58);
+}
