@@ -3,6 +3,7 @@ const bcryptjs = require('bcryptjs');
 const adminModel = require('../admin/model');
 const admin = require('firebase-admin');
 const authRouter = express.Router();
+
 authRouter.post('/create-user', async (req, res) => {
     try {
         const adminInfo = req.body;
@@ -21,7 +22,7 @@ authRouter.post('/create-user', async (req, res) => {
         });
     } catch (error) {
         console.log(error)
-        res.status(error.status || 500).end(error.message || 'Internal server error!');
+        res.status(error.status || 500).end(error.message || 'Internal server error');
     }
 });
 
@@ -43,7 +44,7 @@ authRouter.post('/login', async (req, res) => {
 
                 res.status(200).json({
                     success:true,
-                    message: 'Login success!',
+                    message: 'Login success',
                     Id: existUser._id,
                     name: existUser.name,
                     role: existUser.role
@@ -51,17 +52,17 @@ authRouter.post('/login', async (req, res) => {
             } else {
                 res.status(200).json({
                     success: false,
-                    message: 'Password is not correct!',
+                    message: 'Password is not correct',
                 });
             }
         } else {
             res.status(404).json({
                 success: false,
-                message: 'Not found!'
+                message: 'not found'
             });
         }
     } catch (error) {
-        res.status(error.status || 500).end(error.message || 'Internal server error!');
+        res.status(error.status || 500).end(error.message || 'Internal server error');
     }
 });
 
@@ -75,7 +76,7 @@ authRouter.post('/facebookOauth', async (req, res) => {
         });
     } catch (error) {
         console.log(error)
-        res.status(error.status || 500).end(error.message || 'Internal server error!');
+        res.status(error.status || 500).end(error.message || 'Internal server error');
     }
 });
 

@@ -1,16 +1,15 @@
 import React from 'react';
-import { Navbar, Container, Input, NavbarBrand, Button, Modal, ModalBody, Form, Spinner } from 'reactstrap';
+import { Navbar, Container, Input, NavbarBrand, Button, Modal, ModalBody, Form } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import UploadModal from './UploadModal';
 
 export const Header = (props) => {
     // console.log(props.authAdmin.role)
     return(
-        <Navbar color='danger'>
+        <Navbar color='light'>
             <Container className='header-container'>
                 <Link to = {`/posts/`}>
-                <Input onChange = {(e) => props.changeKeyword(e.target.value)} style={{display: 'inline-block',}} className='search' type='text' name='search-title' placeholder='Search game'/>
-                {/* <Spinner /> */}
+                <Input onChange = {(e) => props.changeKeyword(e.target.value)} style={{display: 'inline-block', border:'solid'}} className='search' type='text' name='search-title' placeholder='search game'/>
                 </Link>
                 <NavbarBrand className='col-sm-4' href="/"><img className='img-fluid' src='https://upload.wikimedia.org/wikipedia/commons/1/13/Persona_PSP_logo.svg' alt=''/></NavbarBrand>
                 {props.authAdmin.id ? (
@@ -19,15 +18,16 @@ export const Header = (props) => {
                         <h3>{props.authAdmin.name}</h3>
                     </div>
                     <div className='buttons'>
-                    {(props.authAdmin.role==='admin'||props.authAdmin.id==='qrG9iobfZYSOmCPYlAmIRIb2bbh2') && (
+                    {(props.authAdmin.role==='admin'||props.authAdmin.id==='nVyy4srxIBXUsgqG34fRGVZRBBi2'
+                    ||props.authAdmin.id==="TXlzGy9tArZwDKhYkpWZaG4sUwl2") && (
                         <Button className='col-6' color='success' onClick =  {props.uploadPost.toggle}>Create post</Button>)}
-                        <Button className='col-6' color='primary' onClick = {props.logOut}>Log out</Button>
+                        <Button className='col-6' color='danger' onClick = {props.logOut}>Log out</Button>
                     </div>
                     </div>
                 ):(
                     <div>
-                    <Button color='success' onClick={props.login.loginWithFacebook}>Login with Facebook</Button>
-                    <Button style={{marginRight: '10px'}} color='primary' onClick={props.login.toggle}>Login</Button>
+                    <Button onClick={props.login.loginWithFacebook} style={{backgroundColor:'#3b5998'}}>Login with Facebook</Button>
+                    {/* <Button style={{marginRight: '10px'}} color='primary' onClick={props.login.toggle}>Login</Button> */}
                     </div>
                 )}
 

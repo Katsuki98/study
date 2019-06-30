@@ -1,6 +1,7 @@
 import React from 'react';
 import ImgCarousel from '../components/ImgCarousel';
 import {Link} from 'react-router-dom';
+import { Spinner } from 'reactstrap';
 
 const Home = (props) => {
     if(props.post){
@@ -36,7 +37,14 @@ const Home = (props) => {
     </div>
     );}
     else 
-    return <div>Home</div>
+    return (
+    <div>
+        <ImgCarousel />
+        <div className='justify-content-center mt-5'>
+            <h4>Loading...</h4>
+            <Spinner style={{  width: '3rem', height: '3rem' }} />
+        </div>
+    </div>)
 };
 
 export default Home;

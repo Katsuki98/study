@@ -7,7 +7,7 @@ const postSchema = new mongoose.Schema({
     trailer: {type: String},
     platform: {type: String},
     ratingCategory: {type: String},
-    contentDescriptors: {type: String},
+    contentDesciptors: {type: String},
     releaseDate: {type: Date},
     author: {
         type: mongoose.Schema.Types.ObjectId,

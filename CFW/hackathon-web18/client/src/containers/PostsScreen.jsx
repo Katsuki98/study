@@ -4,7 +4,7 @@ import DetailPost from './DetailPost';
 import Posts from '../components/Posts';
 
 const PostsScreen = (props) => {
-    const {authAdmin, posts, keyword, toggle, toggleUploadPost} = props;
+    const {authAdmin, posts, keyword, loginWithFacebook, toggleUploadPost} = props;
     return (
         <div>
             <Route exact path='/posts/' render={(props)=> {
@@ -14,7 +14,7 @@ const PostsScreen = (props) => {
             />
             <Route exact path='/posts/:id' render={(props)=> {
             return(
-            <DetailPost uploadPostVisible={props.uploadPostVisible} toggleUploadPost={toggleUploadPost} toggle={toggle} authAdmin={authAdmin} {...props}/>)
+            <DetailPost uploadPostVisible={props.uploadPostVisible} toggleUploadPost={toggleUploadPost} loginWithFacebook={loginWithFacebook} authAdmin={authAdmin} {...props}/>)
             }} 
             />
         </div>

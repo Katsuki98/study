@@ -10,7 +10,7 @@ class UploadPostForm extends Component {
         trailer: '',
         platform: '',
         ratingCategory: '',
-        contentDescriptors: '',
+        contentDesciptors: '',
         releaseDate: '',
     }
 
@@ -60,28 +60,28 @@ class UploadPostForm extends Component {
                     <h6>Link for cover image:</h6>
                     <Input 
                         type='text' 
-                        placeholder='Link image' 
+                        placeholder='Link for cover' 
                         value={this.state.cover}
                         onChange={(e) => {this.setState({cover: e.target.value})}}
                     />
-                    <h6>Link for embed trailer video :</h6>
+                    <h6>Link for embed video trailer:</h6>
                     <Input 
                         type='text' 
-                        placeholder='Link video' 
+                        placeholder='Link for embed trailer' 
                         value={this.state.trailer}
                         onChange={(e) => {this.setState({trailer: e.target.value})}}
                     />
                     <h6>Platforms:</h6>
                     <Input 
                         type='text' 
-                        placeholder='Platform' 
+                        placeholder='platform' 
                         value={this.state.platform}
                         onChange={(e) => {this.setState({platform: e.target.value})}}
                     />
-                    <h6>Rating category:</h6>
+                    <h6>Rating category image:</h6>
                     <Input 
                         type='text' 
-                        placeholder='Link image' 
+                        placeholder='link for image of Rating Category' 
                         value={this.state.ratingCategory}
                         onChange={(e) => {this.setState({ratingCategory : e.target.value})}}
                     />
@@ -89,24 +89,24 @@ class UploadPostForm extends Component {
                     <Input 
                         type='text' 
                         placeholder='Content descriptors' 
-                        value={this.state.contentDescriptors}
-                        onChange={(e) => {this.setState({contentDescriptors : e.target.value})}}
+                        value={this.state.contentDesciptors}
+                        onChange={(e) => {this.setState({contentDesciptors : e.target.value})}}
                     />
                     <h6>Release date:</h6>
                     <Input 
                         type='date' 
-                        placeholder='Release date' 
+                        placeholder='release date' 
                         value={this.state.releaseDate}
                         onChange={(e) => {this.setState({releaseDate : e.target.value})}}
                     />
-                    <div className='row'>
+                    <div className='row mt-2'>
                     <div className='col-6'>
                     {/* <a href='/posts/' > */}
                     <Button color='primary' onClick = {this.createPost} onMouseUp = {this.props.toggle}>Create</Button>
                     {/* </a> */}
                     </div>
                     <div className='col-6'>
-                    <Button color='primary' onClick = {this.props.toggle}>Cancel</Button>
+                    <Button style={{float:'right'}} color='primary' onClick = {this.props.toggle}>Cancel</Button>
                     </div>
                     </div>
                 </Form>                

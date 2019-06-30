@@ -220,6 +220,7 @@ class App extends Component {
           return(
               <div className='container'>
               <PostsScreen 
+              loginWithFacebook ={this.loginWithFacebook}
               toggle={this.toggleLogin} 
               authAdmin={this.state.authAdmin} 
               keyword={this.state.searchKeyword} 
